@@ -1,0 +1,4 @@
+Garage one = new Garage();
+one.addTestData();
+
+one.printCustomers();

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Garage()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Garage\r\n
+comment1.params=
+comment1.target=void\ addTestData()
+comment1.text=\r\n\ Populates\ the\ map\ with\ given\ data.\r\n\ Then\ it\ makes\ sure\ there\ are\ not\ empty\ entries\ created\ by\ the\ constructor.\r\n\ \r\n
+comment2.params=regNo\ name\ address\ area
+comment2.target=void\ addCustomer(java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment2.text=\r\n\ Creates\ an\ instance\ of\ Customer\ and\ adds\ it\ to\ the\ Map\ with\ the\ regNo\ as\ the\ key.\r\n\ Then\ it\ makes\ sure\ there\ are\ not\ empty\ entries\ created\ by\ the\ constructor.\r\n\ \r\n\ @param\ regNo,\ a\ String\ to\ be\ the\ new\ Key\ for\ the\ Map.\r\n\ @param\ name,\ a\ String\ to\ be\ the\ new\ instance\ variable\ fullName\ of\ the\ class\ Customer\ object.\r\n\ @param\ address,\ a\ String\ to\ be\ the\ new\ instance\ variable\ address\ of\ the\ class\ Customer\ object.\r\n\ @param\ address,\ an\ int\ to\ be\ the\ new\ instance\ variable\ area\ of\ the\ class\ Customer\ object.\r\n\ \r\n
+comment3.params=
+comment3.target=void\ printCustomers()
+comment3.text=\r\n\ For\ each\ customer\ held\ in\ the\ collection\ referenced\ by\ customers,\ \r\n\ prints\ out\ their\ record.\r\n\r\n
+comment4.params=aRegNo
+comment4.target=Customer\ findCustomerWithReg(java.lang.String)
+comment4.text=\r\n\ Checks\ if\ a\ user\ input\ exists\ as\ a\ key/registration\ number\ in\ the\ Map,\r\n\ if\ so,\ it\ returns\ its\ correspondent\ Customer\ object.\r\n\r\n@param\ aRegNo,\ a\ String\ that\ represents\ the\ key/registration\ number\ to\ be\ searched\ for.\r\n@returns\ the\ key's\ correspondent\ Customer\ object\ if\ this\ found,\ otherwise\ null.\r\n\r\n
+comment5.params=anInt
+comment5.target=java.util.Set\ findCustomersInArea(int)
+comment5.text=\r\n\ Checks\ what\ customers\ live\ in\ a\ given\ area\ and\ returns\ a\ Set\ of\ Strings\ that\ represents\ them.\r\n\r\n@param\ anInt,\ an\ int\ that\ represents\ the\ value/area\ where\ customers\ are\ to\ be\ searched\ for.\r\n@returns\ a\ Set\ of\ Strings\ conatining\ the\ Customer\ objects\ found\ in\ that\ area.\r\n\r\n
+numComments=6
